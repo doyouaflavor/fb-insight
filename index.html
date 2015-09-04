@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>看 FB 都在說什麼??</title>
+<!--<link rel="stylesheet" href="style.css" type="text/css" media="screen" />-->
+
+<style>
+body {
+  font: 11px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+/*  stroke: #000;*/
+    opacity: 0.7;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<!--<script src="jquery.csv-0.71.min.js"></script>-->
+<!--<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['scatter']}]}"></script>-->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<!--<script src='http://junsuwhy.github.io/whyWidget/whyWidget.js'></script>-->
+
+
+<!--
+  <script src="d3.v3.js"></script>
+    <script src="jquery-1.10.2.js"></script>
+
+  <script src='file:///MyMacImportantFile/Desktop/MyPracticeProject/whyWidget/whyWidget.js'></script>
+-->
+
+<!--<script src='data_visualizer.js'></script>-->
+
+</head>
+<body>
+<!--
+<div id="wrapper">
+<div class="content">
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+</div>
+</div>
+-->
+<script src="swim.js"></script>
+<form>
+   縱軸 : 
+   <input type="radio" name="yaxis" value="like"> Like 
+   <input type="radio" name="yaxis" value="share" checked>Share
+   <input type="radio" name="yaxis" value="reach">Reach<br>
+    橫軸 : 
+    <input type="radio" name="xaxis" value="like"> Like 
+    <input type="radio" name="xaxis" value="share">Share
+    <input type="radio" name="xaxis" value="reach" checked>Reach<br>
+    
+    分群 : 
+    <input type="radio" name="group" value="幫別人宣傳">幫別人宣傳
+    <input type="radio" name="group" value="心情">心情
+    <input type="radio" name="group" value="商品">商品
+    <input type="radio" name="group" value="活動">活動
+    <input type="radio" name="group" value="社會福利、弱勢">社會福利、弱勢
+    <input type="radio" name="group" value="剩食">剩食
+    <input type="radio" name="group" value="最近議題">最近議題
+    <input type="radio" name="group" value="街賣者">街賣者
+    <input type="radio" name="group" value="街友" checked>街友<br>
+    
+    
+</form>
+<div id="console"></div>
+
+</body>
+</html>

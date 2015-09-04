@@ -1,0 +1,104 @@
+body,td,th {
+	color: #A5DEE4;
+
+}
+body {
+	background-color: #0B346E;
+	font-size: 20px;
+	margin:0px;
+	padding:0px;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left;
+	width:920px;
+}
+
+#title{
+	padding:10px 0 10px 0;
+	margin:10px 10px 10px 10px;
+	font-size:70px;
+}
+
+#target{
+	font-size: 28px;
+	margin:10px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
+}
+#curr_target{
+	color:#F17C67;
+}
+#curr_targ_dist{
+	color:#FBE251;
+}
+
+#history{
+
+}
+#his_title{
+	padding:5px 5px 5px 5px;
+	font-size: 40px;
+}
+.target_title{
+	padding:5px 5px 5px 5px;
+}
+.his_target{
+	padding:10px 10px 10px 10px;
+}
+.hist_list{
+	padding:5px 5px 5px 5px;
+}
+.date{
+	width: 200px;
+	float:left;
+}
+.one_dist{
+	padding-right:4em;
+	min-width:100px;
+	float:left;
+	text-align:right;
+}
+.total_tag{
+	width:2.5em;
+	float: left;
+}
+.total_dist{
+	width:4em;
+	padding-right:4em;
+	float: left;
+	text-align:right;
+}
+.last_tag{
+	width:2.5em;
+	float: left;	
+}
+.last_dist{
+	width:4em;
+	float: left;
+	text-align:right;
+}
+.archive_text{
+	width:200px;
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+a{
+	color:#7F7F80;
+}
+a:hover {
+	background-color:#111180;
+}
+
+#graph text{
+	fill:#A5DEE4;
+	font-size:12px;
+}
+
+#graph polyline,#graph line{
+	fill:none;
+	stroke:#A5DEE4;
+}
